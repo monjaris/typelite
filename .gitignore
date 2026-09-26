@@ -1,0 +1,19 @@
+# Client
+.DS_Store
+
+# Build System
+.cache/
+.xmake/
+build/
+
+# Binaries
+/*.so
+/*.a
+/*.o
+/*.release
+/*.debug
+
+# Editors & LSP
+.zed/
+.vscode/
+compile_commands.json

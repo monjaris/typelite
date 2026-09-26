@@ -53,6 +53,7 @@ ld_flags = {
 }
 
 set_languages("c++23")
+add_includedirs("../include/")
 add_cxxflags(table.unpack(cxx_flags))
 add_ldflags(table.unpack(ld_flags))
 
